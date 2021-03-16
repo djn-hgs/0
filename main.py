@@ -6,6 +6,8 @@ FILENAME = 'my_todo.csv'
 
 # How to store a todo list
 
+# Charlie said to write this
+
 class TaskList(list):
   def add_item(self, todo):
     self.append(todo)
